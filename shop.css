@@ -1,0 +1,110 @@
+#shopcover{
+    background-image: url(images/1pink.jpg);
+    display: block;
+    height: 1200px;
+    width: 2176px;
+    margin-bottom: 50px;
+   margin-top: -70px;
+    margin-left: -500px;  
+
+}
+#firstcover{
+    font-size: 70px;
+    display: block;
+    margin-left: 700px;
+    padding-left: 500px;
+    padding-right: 0;
+    height: 80px;
+    width: 350px;
+    align-content: center;
+    align-items:normal;
+    padding-top: 400px;
+    color: white;
+}
+#productlist1{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    justify-items: center;
+}
+body{
+    overflow-x: hidden;
+}
+#details .productimage{
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 50px;
+}
+.smallimages{
+    display: flex;
+    justify-content: space-between;
+}
+#smallimagecol{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#details{
+    display: flex;
+    margin-top: 20px;
+}
+#details .productdetails h4{
+    padding: 40px 0 20px 0;
+    margin-top: -50px;
+    font-family: 'Whisper',cursive;
+    font-size: 40px;
+    color: #9e1449;
+}
+#details .productdetails h2{
+    font-size: 40px;
+    margin-top: -70px;
+    font-family: 'Brush Script MT',cursive;
+    color: #9e1449;
+}
+#details .productdetails select{
+    margin-top: 100px;
+    display: block; 
+    padding: 5px 10px; 
+    margin-bottom: 10px;
+}
+#details .productdetails{
+    width: 50%;
+    padding-top: 30px;
+}
+#details .productdetails select:focus{
+    outline:none;
+}
+#details .productdetails input:focus{
+    outline:none;
+}
+#details .productdetails input{
+    width: 50px; 
+    height: 47px; 
+    padding-left: 10px; 
+    font-size: 16px; 
+    margin-right: 10px;
+    display: block;
+}
+#details .productdetails button{
+    display: block;
+    margin-top: 20px;
+    background-color: #d70556;
+     color: white;
+     margin-bottom: 20px;
+     height: 40px;
+     border: 0px;
+}
+#details .productdetails button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity ease-in;
+}
+#details .productdetails span{
+    line-height: 20px;
+}
+#details .productdetails span1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
